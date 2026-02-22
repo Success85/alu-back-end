@@ -1,3 +1,17 @@
+#!/usr/bin/python3
+"""
+Unit Tests for ALU Back-End API Project (Tasks 0–3)
+Run with: pytest test_api_project.py -v
+"""
+
+import pytest
+import json
+import csv
+import os
+import sys
+from unittest.mock import patch, MagicMock
+from io import StringIO
+
 ass TestTask0:
     """Tests for gather_data_from_an_API.py"""
 
